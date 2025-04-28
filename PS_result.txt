@@ -1,0 +1,455 @@
+PS D:\DS200\Lab04> python run_simulation.py
+Clearing previous data in ./data/streaming_input...
+--- Starting Receiver ---
+Waiting for Receiver to start...
+--- Starting Sender ---
+Waiting for Sender to finish sending data...
+Receiver: Clearing previous data in ./data/streaming_input...
+Receiver: Listening on localhost:9999
+Sender: Loading MNIST data...
+Preparing MNIST data for streaming simulation...
+Prepared 60000 samples.
+Sender: Preparing to send 20000 samples...
+Sender: Sending batch of 500 samples (total sent: 0/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61372)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61372)
+Receiver: Connection with ('127.0.0.1', 61372) closed.
+Sender: Sending batch of 500 samples (total sent: 500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61374)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 1 (1000 samples) to ./data/streaming_input\chunk_0000_1745851025.npz
+Receiver: Connection closed by ('127.0.0.1', 61374)
+Receiver: Connection with ('127.0.0.1', 61374) closed.
+Sender: Sending batch of 500 samples (total sent: 1000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61375)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61375)
+Receiver: Connection with ('127.0.0.1', 61375) closed.
+Sender: Sending batch of 500 samples (total sent: 1500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61376)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 2 (1000 samples) to ./data/streaming_input\chunk_0001_1745851026.npz
+Receiver: Connection closed by ('127.0.0.1', 61376)
+Receiver: Connection with ('127.0.0.1', 61376) closed.
+Sender: Sending batch of 500 samples (total sent: 2000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61377)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61377)
+Receiver: Connection with ('127.0.0.1', 61377) closed.
+Sender: Sending batch of 500 samples (total sent: 2500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61378)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 3 (1000 samples) to ./data/streaming_input\chunk_0002_1745851027.npz
+Receiver: Connection closed by ('127.0.0.1', 61378)
+Receiver: Connection with ('127.0.0.1', 61378) closed.
+Sender: Sending batch of 500 samples (total sent: 3000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61379)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61379)
+Receiver: Connection with ('127.0.0.1', 61379) closed.
+Sender: Sending batch of 500 samples (total sent: 3500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61381)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 4 (1000 samples) to ./data/streaming_input\chunk_0003_1745851028.npz
+Receiver: Connection closed by ('127.0.0.1', 61381)
+Receiver: Connection with ('127.0.0.1', 61381) closed.
+Sender: Sending batch of 500 samples (total sent: 4000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61382)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61382)
+Receiver: Connection with ('127.0.0.1', 61382) closed.
+Sender: Sending batch of 500 samples (total sent: 4500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61383)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 5 (1000 samples) to ./data/streaming_input\chunk_0004_1745851029.npz
+Receiver: Connection closed by ('127.0.0.1', 61383)
+Receiver: Connection with ('127.0.0.1', 61383) closed.
+Sender: Sending batch of 500 samples (total sent: 5000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61384)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61384)
+Receiver: Connection with ('127.0.0.1', 61384) closed.
+Sender: Sending batch of 500 samples (total sent: 5500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61385)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 6 (1000 samples) to ./data/streaming_input\chunk_0005_1745851030.npz
+Receiver: Connection closed by ('127.0.0.1', 61385)
+Receiver: Connection with ('127.0.0.1', 61385) closed.
+Sender: Sending batch of 500 samples (total sent: 6000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61386)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61386)
+Receiver: Connection with ('127.0.0.1', 61386) closed.
+Sender: Sending batch of 500 samples (total sent: 6500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61388)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 7 (1000 samples) to ./data/streaming_input\chunk_0006_1745851031.npz
+Receiver: Connection closed by ('127.0.0.1', 61388)
+Receiver: Connection with ('127.0.0.1', 61388) closed.
+Sender: Sending batch of 500 samples (total sent: 7000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61389)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61389)
+Receiver: Connection with ('127.0.0.1', 61389) closed.
+Sender: Sending batch of 500 samples (total sent: 7500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61390)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 8 (1000 samples) to ./data/streaming_input\chunk_0007_1745851032.npz
+Receiver: Connection closed by ('127.0.0.1', 61390)
+Receiver: Connection with ('127.0.0.1', 61390) closed.
+Sender: Sending batch of 500 samples (total sent: 8000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61391)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61391)
+Receiver: Connection with ('127.0.0.1', 61391) closed.
+Sender: Sending batch of 500 samples (total sent: 8500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61392)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 9 (1000 samples) to ./data/streaming_input\chunk_0008_1745851033.npz
+Receiver: Connection closed by ('127.0.0.1', 61392)
+Receiver: Connection with ('127.0.0.1', 61392) closed.
+Sender: Sending batch of 500 samples (total sent: 9000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61393)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61393)
+Receiver: Connection with ('127.0.0.1', 61393) closed.
+Sender: Sending batch of 500 samples (total sent: 9500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61395)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 10 (1000 samples) to ./data/streaming_input\chunk_0009_1745851034.npz
+Receiver: Connection closed by ('127.0.0.1', 61395)
+Receiver: Connection with ('127.0.0.1', 61395) closed.
+Sender: Sending batch of 500 samples (total sent: 10000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61396)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61396)
+Receiver: Connection with ('127.0.0.1', 61396) closed.
+Sender: Sending batch of 500 samples (total sent: 10500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61397)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 11 (1000 samples) to ./data/streaming_input\chunk_0010_1745851036.npz
+Receiver: Connection closed by ('127.0.0.1', 61397)
+Receiver: Connection with ('127.0.0.1', 61397) closed.
+Sender: Sending batch of 500 samples (total sent: 11000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61398)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61398)
+Receiver: Connection with ('127.0.0.1', 61398) closed.
+Sender: Sending batch of 500 samples (total sent: 11500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61399)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 12 (1000 samples) to ./data/streaming_input\chunk_0011_1745851037.npz
+Receiver: Connection closed by ('127.0.0.1', 61399)
+Receiver: Connection with ('127.0.0.1', 61399) closed.
+Sender: Sending batch of 500 samples (total sent: 12000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61401)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61401)
+Receiver: Connection with ('127.0.0.1', 61401) closed.
+Sender: Sending batch of 500 samples (total sent: 12500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61403)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 13 (1000 samples) to ./data/streaming_input\chunk_0012_1745851038.npz
+Receiver: Connection closed by ('127.0.0.1', 61403)
+Receiver: Connection with ('127.0.0.1', 61403) closed.
+Sender: Sending batch of 500 samples (total sent: 13000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61404)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61404)
+Receiver: Connection with ('127.0.0.1', 61404) closed.
+Sender: Sending batch of 500 samples (total sent: 13500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61405)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 14 (1000 samples) to ./data/streaming_input\chunk_0013_1745851039.npz
+Receiver: Connection closed by ('127.0.0.1', 61405)
+Receiver: Connection with ('127.0.0.1', 61405) closed.
+Sender: Sending batch of 500 samples (total sent: 14000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61406)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61406)
+Receiver: Connection with ('127.0.0.1', 61406) closed.
+Sender: Sending batch of 500 samples (total sent: 14500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61407)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 15 (1000 samples) to ./data/streaming_input\chunk_0014_1745851040.npz
+Receiver: Connection closed by ('127.0.0.1', 61407)
+Receiver: Connection with ('127.0.0.1', 61407) closed.
+Sender: Sending batch of 500 samples (total sent: 15000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61409)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61409)
+Receiver: Connection with ('127.0.0.1', 61409) closed.
+Sender: Sending batch of 500 samples (total sent: 15500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61410)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 16 (1000 samples) to ./data/streaming_input\chunk_0015_1745851041.npz
+Receiver: Connection closed by ('127.0.0.1', 61410)
+Receiver: Connection with ('127.0.0.1', 61410) closed.
+Sender: Sending batch of 500 samples (total sent: 16000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61411)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61411)
+Receiver: Connection with ('127.0.0.1', 61411) closed.
+Sender: Sending batch of 500 samples (total sent: 16500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61412)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 17 (1000 samples) to ./data/streaming_input\chunk_0016_1745851042.npz
+Receiver: Connection closed by ('127.0.0.1', 61412)
+Receiver: Connection with ('127.0.0.1', 61412) closed.
+Sender: Sending batch of 500 samples (total sent: 17000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61413)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61413)
+Receiver: Connection with ('127.0.0.1', 61413) closed.
+Sender: Sending batch of 500 samples (total sent: 17500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61414)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 18 (1000 samples) to ./data/streaming_input\chunk_0017_1745851043.npz
+Receiver: Connection closed by ('127.0.0.1', 61414)
+Receiver: Connection with ('127.0.0.1', 61414) closed.
+Sender: Sending batch of 500 samples (total sent: 18000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61416)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61416)
+Receiver: Connection with ('127.0.0.1', 61416) closed.
+Sender: Sending batch of 500 samples (total sent: 18500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61417)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 19 (1000 samples) to ./data/streaming_input\chunk_0018_1745851044.npz
+Receiver: Connection closed by ('127.0.0.1', 61417)
+Receiver: Connection with ('127.0.0.1', 61417) closed.
+Sender: Sending batch of 500 samples (total sent: 19000/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61418)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Connection closed by ('127.0.0.1', 61418)
+Receiver: Connection with ('127.0.0.1', 61418) closed.
+Sender: Sending batch of 500 samples (total sent: 19500/20000)...
+Sender: Connected to localhost:9999
+Receiver: Accepted connection from ('127.0.0.1', 61419)
+Sender: Finished sending 500 samples.
+Sender: Socket closed.
+Receiver: Saved chunk file 20 (1000 samples) to ./data/streaming_input\chunk_0019_1745851045.npz
+Receiver: Connection closed by ('127.0.0.1', 61419)
+Receiver: Connection with ('127.0.0.1', 61419) closed.
+Sender: Data sending simulation finished.
+Sender process finished.
+Ready to start Spark training...
+--- Starting Spark Trainer (.\main.py) ---
+Running main.py. Ensure receiver_process.py has populated data dir.
+Starting MNIST CNN training simulation on Apache Spark (reading from files filled by socket receiver).
+
+--- Setting up Apache Spark and starting training ---
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+Spark session created.
+Starting Spark training...
+
+--- Epoch 1/5 ---
+Spark loader: Reading data from ./data/streaming_input...
+Using default number of partitions: 12
+RDD repartioned to 12 partitions.
+Collecting trained model state dictionaries from partitions...
+Finished training on partition (1670 samples).                    (0 + 12) / 12]
+Finished training on partition (1690 samples).
+Finished training on partition (1630 samples).
+Finished training on partition (1680 samples).                     (3 + 9) / 12]
+Finished training on partition (1640 samples).                     (4 + 8) / 12]
+Finished training on partition (1660 samples).                     (5 + 7) / 12]
+Finished training on partition (1690 samples).                     (6 + 6) / 12]
+Finished training on partition (1670 samples).                     (7 + 5) / 12]
+Finished training on partition (1660 samples).=>                   (8 + 4) / 12]
+Finished training on partition (1660 samples).======>              (9 + 3) / 12]
+Finished training on partition (1680 samples).==========>         (10 + 2) / 12]
+Finished training on partition (1670 samples).===============>    (11 + 1) / 12]
+Collected 12 state dictionaries.
+Averaged weights from 12 partition models.
+Global model updated with averaged weights.
+Evaluating model after epoch 1...
+Collecting data for evaluation...
+Collected 20000 samples for evaluation.
+Evaluation Accuracy: 38.67%
+
+--- Epoch 2/5 ---
+Spark loader: Reading data from ./data/streaming_input...
+RDD repartioned to 12 partitions.
+Collecting trained model state dictionaries from partitions...
+Finished training on partition (1680 samples).                     (5 + 7) / 12]
+Finished training on partition (1690 samples).
+Finished training on partition (1670 samples).
+Finished training on partition (1680 samples).                     (3 + 9) / 12]
+Finished training on partition (1660 samples).                     (4 + 8) / 12]
+Finished training on partition (1640 samples).                     (5 + 7) / 12]
+Finished training on partition (1690 samples).                     (6 + 6) / 12]
+Finished training on partition (1670 samples).                     (7 + 5) / 12]
+Finished training on partition (1660 samples).=>                   (8 + 4) / 12]
+Finished training on partition (1660 samples).======>              (9 + 3) / 12]
+Finished training on partition (1630 samples).==========>         (10 + 2) / 12]
+Finished training on partition (1670 samples).===============>    (11 + 1) / 12]
+Collected 12 state dictionaries.
+Averaged weights from 12 partition models.
+Global model updated with averaged weights.
+Evaluating model after epoch 2...
+Collecting data for evaluation...
+Collected 20000 samples for evaluation.
+Evaluation Accuracy: 49.60%
+
+--- Epoch 3/5 ---
+Spark loader: Reading data from ./data/streaming_input...
+RDD repartioned to 12 partitions.
+Collecting trained model state dictionaries from partitions...
+Finished training on partition (1660 samples).                    (0 + 12) / 12]
+Finished training on partition (1680 samples).
+Finished training on partition (1660 samples).
+Finished training on partition (1670 samples).                     (3 + 9) / 12]
+Finished training on partition (1690 samples).                     (4 + 8) / 12]
+Finished training on partition (1640 samples).                     (5 + 7) / 12]
+Finished training on partition (1690 samples).                     (6 + 6) / 12]
+Finished training on partition (1630 samples).                     (7 + 5) / 12]
+Finished training on partition (1670 samples).==>                  (8 + 4) / 12]
+Finished training on partition (1660 samples).======>              (9 + 3) / 12]
+Finished training on partition (1680 samples).==========>         (10 + 2) / 12]
+Finished training on partition (1670 samples).===============>    (11 + 1) / 12]
+Collected 12 state dictionaries.
+Averaged weights from 12 partition models.
+Global model updated with averaged weights.
+Evaluating model after epoch 3...
+Collecting data for evaluation...
+Collected 20000 samples for evaluation.
+Evaluation Accuracy: 65.08%
+
+--- Epoch 4/5 ---
+Spark loader: Reading data from ./data/streaming_input...
+RDD repartioned to 12 partitions.
+Collecting trained model state dictionaries from partitions...
+Finished training on partition (1660 samples).                    (0 + 12) / 12]
+Finished training on partition (1670 samples).
+Finished training on partition (1690 samples).
+Finished training on partition (1660 samples).                     (3 + 9) / 12]
+Finished training on partition (1670 samples).                     (4 + 8) / 12]
+Finished training on partition (1640 samples).                     (5 + 7) / 12]
+Finished training on partition (1680 samples).                     (6 + 6) / 12]
+Finished training on partition (1680 samples).                     (7 + 5) / 12]
+Finished training on partition (1660 samples).==>                  (8 + 4) / 12]
+Finished training on partition (1670 samples).======>              (9 + 3) / 12]
+Finished training on partition (1690 samples).==========>         (10 + 2) / 12]
+Finished training on partition (1630 samples).===============>    (11 + 1) / 12]
+Collected 12 state dictionaries.
+Averaged weights from 12 partition models.
+Global model updated with averaged weights.
+Evaluating model after epoch 4...
+Collecting data for evaluation...
+Collected 20000 samples for evaluation.
+Evaluation Accuracy: 53.58%
+
+--- Epoch 5/5 ---
+Spark loader: Reading data from ./data/streaming_input...
+RDD repartioned to 12 partitions.
+Collecting trained model state dictionaries from partitions...
+Finished training on partition (1690 samples).                     (5 + 7) / 12]
+Finished training on partition (1660 samples).
+Finished training on partition (1680 samples).
+Finished training on partition (1690 samples).
+Finished training on partition (1630 samples).
+Finished training on partition (1670 samples).
+Finished training on partition (1680 samples).
+Finished training on partition (1660 samples).
+Finished training on partition (1640 samples).
+Finished training on partition (1670 samples).
+Finished training on partition (1670 samples).
+Finished training on partition (1660 samples).
+Collected 12 state dictionaries.
+Averaged weights from 12 partition models.
+Global model updated with averaged weights.
+Evaluating model after epoch 5...
+Collecting data for evaluation...
+Collected 20000 samples for evaluation.
+Evaluation Accuracy: 53.47%
+
+Spark training finished.
+Final model saved to ./models/saved\final_cnn_model.pth
+Spark session stopped.
+Spark context stopped.
+
+MNIST CNN training simulation finished.
+SUCCESS: The process with PID 1052 (child process of PID 8692) has been terminated.
+SUCCESS: The process with PID 8692 (child process of PID 4252) has been terminated.
+SUCCESS: The process with PID 4252 (child process of PID 18408) has been terminated.
